@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SPA Fallback</title>
+    <script>
+      // SPA fallback: rewrite all paths to index.html
+      window.location.replace(window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/index.html'));
+    </script>
+  </head>
+  <body></body>
+</html>

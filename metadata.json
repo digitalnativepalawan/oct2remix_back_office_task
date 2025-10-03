@@ -1,0 +1,5 @@
+{
+  "name": "2Copy of remix_back_office_oct1",
+  "description": "A comprehensive back-office dashboard to manage labor, materials, tasks, and invoices. Features full CRUD functionality for tasks, including comments and image/URL attachments.",
+  "requestFramePermissions": []
+}

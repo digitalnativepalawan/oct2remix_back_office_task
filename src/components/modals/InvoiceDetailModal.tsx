@@ -59,9 +59,12 @@ export const InvoiceDetailModal: React.FC<InvoiceDetailModalProps> = ({ isOpen, 
                             {/* Header */}
                             <header className="flex justify-between items-start mb-10 print-header">
                                 <div>
-                                    <h2 className="text-2xl font-bold text-gray-800">Binga Beach Palawan</h2>
-                                    <p className="text-gray-500 text-sm">San Vicente, Palawan</p>
-                                    <p className="text-gray-500 text-sm">Philippines</p>
+                                    <h2 className="text-2xl font-bold text-gray-800">Palawan Collective</h2>
+                                    <p className="text-gray-500 text-sm">Binga Beach Brothers Inc.</p>
+                                    <p className="text-gray-500 text-sm">Lumambong Beach</p>
+                                    <p className="text-gray-500 text-sm">Palawan Island 5309</p>
+                                    <p className="text-gray-500 text-sm mt-2">david@bingabeach.com</p>
+                                    <p className="text-gray-500 text-sm">VAT: 009990079</p>
                                 </div>
                                 <div className="text-right">
                                     <h1 className="text-4xl font-bold uppercase text-gray-800">Invoice</h1>
@@ -144,8 +147,8 @@ export const InvoiceDetailModal: React.FC<InvoiceDetailModalProps> = ({ isOpen, 
                                     Thank you for your business. Please make payment by {invoice.dueDate ? formatDisplayDate(invoice.dueDate) : 'the due date'}.
                                 </p>
                                 <footer className="text-center text-gray-500 text-xs">
-                                    <p>Binga Beach Palawan | San Vicente, Palawan, Philippines</p>
-                                    <p>david@bingabeach.com</p>
+                                    <p>Palawan Collective | Binga Beach Brothers Inc. | Palawan Island 5309</p>
+                                    <p>david@bingabeach.com | VAT: 009990079</p>
                                 </footer>
                             </div>
                         </div>

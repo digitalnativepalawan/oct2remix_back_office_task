@@ -1,7 +1,6 @@
 import React from 'react';
 import type { SortDirection } from '../types';
 
-// FIX: Updated onClick prop to accept a MouseEvent to allow for event handling like stopPropagation.
 export const ActionButton: React.FC<{ onClick: (e: React.MouseEvent) => void; children: React.ReactNode; tooltip: string; className?: string; }> = ({ onClick, children, tooltip, className }) => (
     <button
         type="button"

@@ -1,4 +1,5 @@
 
+
 import React, { useState, useRef, useEffect } from 'react';
 
 interface HeaderProps {
@@ -22,7 +23,6 @@ export const Header: React.FC<HeaderProps> = ({ paidTotal, unpaidTotal, onExport
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-// FIX: Corrected a typo in a variable name from `actionsMenu_ref` to `actionsMenuRef`.
             if (actionsMenuRef.current && !actionsMenuRef.current.contains(event.target as Node)) {
                 setIsActionsMenuOpen(false);
             }
